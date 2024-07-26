@@ -1,0 +1,27 @@
+TravelPlanner/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── __init__.py
+│   ├── planner.py
+│   ├── itinerary.py
+│   └── utils.py
+├── data/
+│   ├── destinations/
+│   └── user_data/
+├── scripts/
+│   ├── generate_itinerary.py
+│   └── fetch_travel_data.py
+├── tests/
+│   ├── test_planner.py
+│   ├── test_itinerary.py
+│   └── test_utils.py
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
